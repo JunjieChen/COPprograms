@@ -1,0 +1,4 @@
+The folder ``failingprograms'' includes 12 sub-folders, each of which contains the bug-triggering test programs for the corresponding compiler version in our study.
+
+The file "bug.xlsx" presents which the test programs triggered the same bug for each compiler version. 
+	In this file, each line presents the results for each compiler version, where "fail"+number is mapping to the name of a bug-triggering test program in the corresponding sub-folder. And in each line, we use color to distinguish whether the test programs triggered the same bug for the compiler version, where the test programs marking with the same color triggered the same bug and the test programs marking with different colors triggered different bugs for the compiler version.
